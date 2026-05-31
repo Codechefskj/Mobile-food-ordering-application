@@ -4,15 +4,17 @@ import { router } from "expo-router";
 export default function DetailsScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Burger Details</Text>
+      <Text style={styles.title}>
+        Burger Details 🍔
+      </Text>
 
       <Text style={styles.desc}>
-        Delicious burger with fries and cheese 🧀
+        Fresh burger with cheese, fries and cold drink.
       </Text>
 
       <Button
         title="Add To Cart"
-        onPress={() => router.push("/cart" as any)}
+        onPress={() => router.push("/cart")}
       />
     </View>
   );
@@ -31,7 +33,7 @@ const styles = StyleSheet.create({
   },
 
   desc: {
-    fontSize: 20,
+    fontSize: 18,
     marginVertical: 20,
   },
 });

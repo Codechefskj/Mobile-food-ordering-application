@@ -10,9 +10,11 @@ export default function ProfileScreen() {
         style={styles.image}
       />
 
-      <Text style={styles.name}>Sambhav Jha</Text>
+      <Text style={styles.name}>
+        Sambhav Jha
+      </Text>
 
-      <Text style={styles.text}>
+      <Text style={styles.role}>
         React Native Developer 🚀
       </Text>
     </View>
@@ -32,12 +34,12 @@ const styles = StyleSheet.create({
   },
 
   name: {
-    fontSize: 26,
+    fontSize: 28,
     fontWeight: "bold",
     marginTop: 20,
   },
 
-  text: {
+  role: {
     fontSize: 18,
     marginTop: 10,
   },
