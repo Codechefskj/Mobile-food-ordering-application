@@ -1,56 +1,189 @@
-# Welcome to your Expo app 👋
+# 🍔 Ace Food Service - Mobile Food Ordering Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern Mobile Food Ordering Application built using **React Native**, **Expo**, and **Expo Router**. The application provides a responsive and interactive user interface for browsing food items, viewing details, managing a cart, and navigating through multiple screens.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 Features
 
-   ```bash
-   npm install
-   ```
+### Navigation
+- Bottom Tab Navigation
+- Expo Router Navigation
+- Multiple Screen Navigation
 
-2. Start the app
+### User Interface
+- Modern Responsive Design
+- Food Cards Layout
+- Grid-Based Food Display
+- Vector Icons using Ionicons
 
-   ```bash
-   npx expo start
-   ```
+### Home Screen
+- Image Carousel / Slider
+- Auto Scrolling Banner
+- Pagination Dots
+- Promotional Food Banners
 
-In the output, you'll find options to open the app in a
+### Menu Screen
+- FlatList Rendering
+- Two Column Grid Layout
+- Food Cards
+- Dynamic Food Data
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Food Details
+- Food Information Screen
+- Add To Cart Navigation
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Cart
+- Dedicated Cart Screen
+- Order Summary Interface
 
-## Get a fresh project
+### Profile
+- User Profile Screen
+- Profile Avatar
+- User Information
 
-When you're ready, run:
+### React Features
+- useState Hook
+- useEffect Hook
+- useRef Hook
+- Dynamic Rendering
 
-```bash
-npm run reset-project
+### Responsive Design
+- Dimensions API
+- Flexbox Layout
+- Mobile Friendly UI
+
+---
+
+## 🛠️ Technologies Used
+
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+- FlatList
+- ScrollView
+- Ionicons
+- React Hooks
+- Flexbox
+- Dimensions API
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+└── app/
+    ├── _layout.tsx
+    ├── index.tsx
+    ├── menu.tsx
+    ├── details.tsx
+    ├── cart.tsx
+    └── profile.tsx
+
+assets/
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-### Other setup steps
+## 📸 Screens
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### 🏠 Home Screen
+- Food Banner Slider
+- Auto Scrolling Carousel
+- Pagination Indicators
 
-## Learn more
+### 🍕 Menu Screen
+- Food Grid Layout
+- Food Cards
+- Price Display
 
-To learn more about developing your project with Expo, look at the following resources:
+### 🍔 Details Screen
+- Food Description
+- Add To Cart Button
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 🛒 Cart Screen
+- Cart Summary
 
-## Join the community
+### 👤 Profile Screen
+- User Information
+- Profile Image
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🚀 Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/ace-food-service.git
+```
+
+### Navigate to Project
+
+```bash
+cd ace-food-service
+```
+
+### Install Dependencies
+
+```bash
+npm install
+```
+
+### Install Expo Vector Icons
+
+```bash
+npx expo install @expo/vector-icons
+```
+
+### Start Development Server
+
+```bash
+npm start
+```
+
+### Run on Android
+
+```bash
+npx expo start --android
+```
+
+### Run on iOS
+
+```bash
+npx expo start --ios
+```
+
+---
+
+## 🎯 Features Demonstrated
+
+- Bottom Tab Navigation
+- Expo Router Navigation
+- Vector Icons
+- Image Carousel / Slider
+- Auto Scrolling Banner
+- Pagination Dots
+- FlatList Rendering
+- Grid Layout
+- Food Cards
+- Responsive Design
+- Multiple Screens
+- React Hooks (useState, useEffect, useRef)
+
+---
+
+## 👨‍💻 Author
+
+**Sambhav Jha**
+
+B.Tech Computer Science (AI)  
+Netaji Subhas University of Technology (NSUT)
+
+---
+
+## 📄 License
+
+This project is developed for educational and learning purposes.
